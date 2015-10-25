@@ -1,0 +1,109 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    padding: 50px 0 0 0;
+}
+
+.navmenu {
+    padding-top: 50px;
+}
+
+.navbar {
+    display: block;
+    text-align: center;
+}
+
+.navbar-brand {
+    display: inline-block;
+    float: none;
+}
+
+.navbar-toggle {
+    position: absolute;
+    float: left;
+    margin-left: 15px;
+}
+
+.container {
+    max-width: 100%;
+}
+
+@media (min-width: 1px) {
+    .navbar-toggle {
+        display: block !important;
+    }
+}
+
+@media (min-width: 992px) {
+    body {
+        padding: 0 0 0 300px;
+    }
+
+    .navmenu {
+        padding-top: 0;
+    }
+
+    .navbar {
+        display: none !important; /* для IE8 */
+    }
+}
+
+.navbar-brand-padding-left {
+    padding-left: 58px;
+}
+
+div.share {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 30px;
+}
+
+div.share a.facebook, a.vk, a.google, a.odnoklassniki {
+    width: 30px;
+    height: 30px;
+    display: block;
+    float: left;
+}
+
+div.share a.vk, a.google, a.odnoklassniki {
+    margin-left: 20px;
+}
+
+div.share a.facebook {
+    background-image: url("../img/facebook_30x30.jpg");
+}
+
+div.share a.facebook:hover {
+    background-image: url("../img/facebook_hover_30x30.jpg");
+}
+
+div.share a.vk {
+    background-image: url("../img/vk_30x30.jpg");
+}
+
+div.share a.vk:hover {
+    background-image: url("../img/vk_hover_30x30.jpg");
+}
+
+div.share a.google {
+    background-image: url("../img/g+_30x30.jpg");
+}
+
+div.share a.google:hover {
+    background-image: url("../img/g+_hover_30x30.jpg");
+}
+
+div.share a.odnoklassniki {
+    background-image: url("../img/odnoklassniki_30x30.jpg");
+}
+
+div.share a.odnoklassniki:hover {
+    background-image: url("../img/odnoklassniki_hover_30x30.jpg");
+}
+
+.my-img {
+    margin: auto;
+}
